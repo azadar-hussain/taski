@@ -1,0 +1,125 @@
+* , *:after , *:before {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.todo {
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: sans-serif;
+
+  color:  rgb(62, 62, 62);
+}
+
+.add-unit {
+  display: flex;
+  margin:0px auto;
+  width: 100%;
+justify-content: space-around;
+position: relative;
+  margin: 10px 0px;
+}
+
+#shade {
+  width: 20%;
+  right: 20%;
+  height: 40px;
+  background: radient-grediant('red','transparent');
+  position: absolute;
+}
+
+#button {
+  padding: 10px 40px;
+    border: 1px solid rgba(53, 63, 152,1);
+  background: rgba(53, 63, 152,1);
+  border-radius: 0px 4px 4px 0px;
+  width: 20%;
+  text-align: center;
+  border-left: none;
+  font-weight: 600;
+  transition: 0.2s;
+  color: white;
+
+}
+
+#button:hover {
+  background: rgba(53, 63, 152,0.9);
+  cursor: pointer;
+}
+
+#add-item {
+  width: 80%;
+}
+
+
+input {
+  border: 1px solid rgb(53, 63, 152);
+  border-radius: 4px 0px 0px 4px;
+  font-size: 20px;
+  padding-left: 10px;
+  color:  rgb(46, 46, 46);
+  font-weight: lighter;
+
+}
+
+
+.task {
+  width: 100%;
+height: auto;
+ background:rgb(247, 247, 247);
+  box-shadow: rgb(212, 212, 212) 0px 2px 6px ;
+    border: 1px solid rgb(231, 231, 231);
+    font-weight: lighter;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+
+.edit-section {
+  height: 25px;
+  border-bottom: 1px solid rgb(231, 231, 231);
+
+}
+
+.title-section {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+h1 {
+  font-weight: 100;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  word-wrap:break-word;
+  width: 70%;
+
+}
+
+span {
+  width: 30%;
+  height: 100%;
+text-align: center;
+min-width: 110px;
+  margin-right: 10px;
+}
+
+span i {  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: block;
+margin: 0 auto;
+  background: rgb(215, 65, 65);}
+
+span i:hover {
+  cursor: pointer;
+    background: rgb(200, 65, 65);
+}
